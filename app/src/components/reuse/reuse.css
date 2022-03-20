@@ -1,0 +1,57 @@
+.showcaseContainer{
+    text-align: center;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+}
+
+.textContainer{
+    margin-top: 190px;
+}
+.textWrapper{
+    margin-top: 20px;
+}
+.textWrapper p {
+    line-height: 25px;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: tomato;
+    margin-top: 25px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+
+@media screen and (max-width: 1000px) {
+   .showcaseContainer{
+    height: 80vh;
+}
+.textContainer{
+    margin-top: 140px;
+}
+
+}
+@media screen and (max-width: 600px) {
+  .textContainer h1{
+      font-size: 26px;
+  }
+  .textContainer p {
+      font-size: 12px;
+  }
+.btn {
+    padding: 10px 20px;
+    background-color: tomato;
+    margin-top: 15px;
+    
+}
+}
